@@ -1,3 +1,3 @@
-INSERT INTO tb_Client (name) VALUES ('Paulo');
-INSERT INTO tb_Client (name) VALUES ('Gabriel');
-INSERT INTO tb_Client (name) VALUES ('Maria');
+INSERT INTO tb_Client (name, created_At) VALUES ('Paulo', NOW());
+INSERT INTO tb_Client (name, created_At) VALUES ('Gabriel', NOW());
+INSERT INTO tb_Client (name, created_At) VALUES ('Maria', NOW());
